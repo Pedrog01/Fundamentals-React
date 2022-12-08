@@ -1,7 +1,7 @@
 Array.prototype.map2 = function(callback){
     const newArray = []
     for(let i= 0; i<this.length; i++) {
-        newArray.push(callback(this[1], i, this))
+        newArray.push(callback(this[i], i, this))
     }
     return newArray
 }
